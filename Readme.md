@@ -41,3 +41,10 @@ Communication sockets that are currently planned are as following: Unix Domain S
 Library that simplifies communication with the streamduck-daemon, and also allows one to make custom UI clients for the software
 ## streamdeck-cli
 Command-line tool to interact with the daemon
+
+# Building
+
+`cargo build` (normal build)
+
+`docker build .` (container build, for example in CI/CD contexts)
+
